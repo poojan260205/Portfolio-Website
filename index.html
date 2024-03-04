@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+        <!-- I Poojan Patel, 000901579 certify that this material is my original work. No other person's work has been used without due acknowledgement. I have not made my work available to anyone else.-->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Home Page</title>
+    <style>
+        body, html {
+            height: 100%;
+            margin: 0;
+            font-family: sans-serif;
+            background-color: #121212;
+            color: white;
+        }
+        header {
+            background-color: #1a1a1a;
+            display: flex;
+            padding: 1rem 3rem;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .navbar a, .get-in-touch {
+            color: #f0f0f0;
+            margin-left: 3rem;
+            font-size: 1.4rem;
+        }
+        .intro {
+            text-align: center;
+            padding: 2rem;
+        }
+        .intro h1 {
+            font-size: 2.5rem;
+        }
+        .intro p {
+            font-size: 1.2rem;
+        }
+        .card-container {
+            display: flex;
+            justify-content: center;
+            padding: 2rem;
+        }
+        .card {
+            background-color: #1e1e1e;
+            padding: 2rem;
+            margin: 1rem;
+            width: 154px;
+            height: 154px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            border-radius: 14px;
+        }
+        .card img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            border-radius: 14px;
+        }
+        .photo-container {
+            position: absolute;
+            top: 74px;
+            left: 0;
+            margin-top: 50px;
+            padding: 1rem;
+            width: 100px;
+        }
+        .profile-photo {
+            width: 300px;
+            height: 300px;
+            border-radius: 10px;
+            border: 4px solid #ffffff;
+            box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+            aspect-ratio: 1 / 1;
+            object-fit: cover;
+        }
+        .footer {
+            text-align: center;
+            padding: 1rem;
+            position: absolute;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+    </style>
+</head>
+<body>
+    <header>
+        
+        <h1><a href="index.html">POOJAN PATEL</a></h1>
+        <nav class="navbar">
+            <a href="about.html">About</a>
+            <a href="resume.html">Resume</a>
+        </nav>
+        <a href="getInTouch.html" class="get-in-touch">Get in touch</a>
+    </header>
+
+    <div class="photo-container">
+        <img src="images/poojan.jpg" alt="Poojan Patel" class="profile-photo">
+    </div>
+
+    <div class="intro">
+        <h1>Hey, I'm Poojan Patel</h1>
+        <p>Software Development Student at Mohawk Collge 👋</p>
+    </div>
+
+    <div class="card-container">
+        <div class="card">
+            <a href="skills.html"><img src="images/skills.png" alt="Skills"></a>
+        </div>
+    
+        <div class="card">
+            <a href="education.html"><img src="images/education.png" alt="Education"></a>
+
+        </div>
+        <div class="card">
+            <a href="projects.html"><img src="images/projects.png" alt="Projects"></a>
+        </div>
+    </div>
+
+    <div class="footer">
+        <p>Made with ❤️</p>
+    </div>
+</body>
+</html>
